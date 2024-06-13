@@ -75,6 +75,7 @@ _regex = {
                     r"password is\s*[`=:\"]*\s*[^\s]+|" \
                     r"pwd\s*[`=:\"]*\s*[^\s]+|" \
                     r"passwd\s*[`=:\"]+\s*[^\s]+)",
+    'discount_sale_promo' : r'\b(discount|sale|promo)\b[^\n]*',
 }
 
 _template = '''
